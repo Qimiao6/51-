@@ -1,0 +1,58 @@
+
+//#include<stdio.h>
+//		int main()
+//		{
+//			int a=10;//申请了4个字节的空间
+//			int* p=&a;//p的类型是int*,表示p是一个指针变量
+//			//a前面加了&是取地址的意思，把a的地址存到int* p中
+//			*p=20;//这个*号和上面的不同，他是解引用操作符或间接访问操作符
+//			//p的前面加*号表示要对指针变量p进行访问，访问他所指向的变量。 
+//				printf("a=%d\n a地址=%p\n b地址=%p\n",a,&a,p);
+//				return 0;
+//		}
+//#include <stdio.h>
+//	int main()
+//	{
+//		long d=10;
+//		long* p=&d;
+//		*p=5.5;
+//		printf("%d\n",sizeof(p));
+//	/*printf(" d地址=%p\n p地址=%p\n",&d,p);
+//	printf("%lf,%lf",d,*p);*/
+//		return 0;
+//	}
+//#include<stdio.h>
+//	struct binbang//创建一个结构体
+//	{
+//		char lei[20];//结构1
+//		short jia;//结构体2
+//		short pei;
+//	};
+//	int main()
+//	{
+//		struct binbang b1 = {"绿豆",20,55};//给结构体赋值或者名字，注意顺序
+//		printf("品类:%s\n",b1.lei);
+//		printf("原价格:%d元\n,批发价:%d\n",b1.jia,b1.pei);
+//		b1.jia=15;
+//		printf("促销价格:%d元\n",b1.jia);
+//		return 0;
+//
+//}
+//#include<stdio.h>
+//	struct binbang//创建一个结构体
+//
+//	{
+//		char lei[20];//结构1
+//		short jia;//结构体2
+//		short pei;
+//	};
+//	int main()
+//	{
+//		struct binbang b1 = {"绿豆",20,55};//给结构体赋值或者名字，注意顺序
+//		struct binbang* ss=&b1;//把b1地址放入指针函数ss当中
+//		//printf("类别:%s\n",(*ss).lei);   //(*ss)表示取指针函数ss所指向的值
+//		                   //（*指针）.成员
+//		printf("类别:%s\n",ss->lei);
+//						//指针->成员
+//		return 0;
+//	}
