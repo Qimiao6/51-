@@ -1,30 +1,14 @@
 #include <REGX52.H>
-#include<INTRINS.H>
-void Delay500ms()		//@12.000MHz
+int main()
 {
-	unsigned char i, j, k;
-
-	_nop_();
-	i = 4;
-	j = 205;
-	k = 187;
-	do
-	{
-		do
-		{
-			while (--k);
-		} while (--j);
-	} while (--i);
+if(P3_1==0)
+{
+		P2_0=0;
 }
-
- void main()
- {
-	 while(1)
-	 {
-		 P2 = 0xfe;
-		 Delay500ms();
-	 P2 = 0xfd;
-		 Delay500ms();
-	 }
+else
+{
+		P2_0=1;
+}
 	
- }
+	return 0;
+}
