@@ -1,14 +1,9 @@
 #include <REGX52.H>
-int main()
+#include "tej.h"
+void main()
 {
-if(P3_1==0)
-{
-		P2_0=0;
-}
-else
-{
-		P2_0=1;
-}
-	
-	return 0;
+   while(1)
+	 {
+			shuma(2,8);
+	 }
 }
