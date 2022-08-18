@@ -1,0 +1,59 @@
+C51 COMPILER V9.56.0.0   JUZHEN                                                            08/18/2022 22:16:49 PAGE 1   
+
+
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE JUZHEN
+OBJECT MODULE PLACED IN .\Objects\juzhen.obj
+COMPILER INVOKED BY: d:\Keil_v5\C51\BIN\C51.EXE juzhen.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ju
+                    -zhen.lst) TABS(2) OBJECT(.\Objects\juzhen.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include "dalay.h"
+   3          int juzhen()
+   4          {
+   5   1        char anjian = 0;
+   6   1        P1 = 0xff;
+   7   1        P1_3 = 0;
+   8   1        if (P1_7 == 0){ Delay(20);while(P1_7==0);Delay(20);anjian = 1;}
+   9   1        if (P1_6 == 0){ Delay(20);while(P1_6==0);Delay(20);anjian = 5;}
+  10   1        if (P1_5 == 0){ Delay(20);while(P1_5==0);Delay(20);anjian = 9;}
+  11   1        if (P1_4 == 0){ Delay(20);while(P1_4==0);Delay(20);anjian = 13;}
+  12   1        
+  13   1        P1 = 0xff;
+  14   1        P1_2 = 0;
+  15   1        if (P1_7 == 0){ Delay(20);while(P1_7==0);Delay(20);anjian = 2;}
+  16   1        if (P1_6 == 0){ Delay(20);while(P1_6==0);Delay(20);anjian = 6;}
+  17   1        if (P1_5 == 0){ Delay(20);while(P1_5==0);Delay(20);anjian = 10;}
+  18   1        if (P1_4 == 0){ Delay(20);while(P1_4==0);Delay(20);anjian = 14;}
+  19   1        
+  20   1        P1 = 0xff;
+  21   1        P1_1 = 0;
+  22   1        if (P1_7 == 0){ Delay(20);while(P1_7==0);Delay(20);anjian = 3;}
+  23   1        if (P1_6 == 0){ Delay(20);while(P1_6==0);Delay(20);anjian = 7;}
+  24   1        if (P1_5 == 0){ Delay(20);while(P1_5==0);Delay(20);anjian = 11;}
+  25   1        if (P1_4 == 0){ Delay(20);while(P1_4==0);Delay(20);anjian = 15;}
+  26   1      
+  27   1        P1 = 0xff;
+  28   1        P1_0 = 0;
+  29   1        if (P1_7 == 0){ Delay(20);while(P1_7==0);Delay(20);anjian = 4;}
+  30   1        if (P1_6 == 0){ Delay(20);while(P1_6==0);Delay(20);anjian = 8;}
+  31   1        if (P1_5 == 0){ Delay(20);while(P1_5==0);Delay(20);anjian = 12;}
+  32   1        if (P1_4 == 0){ Delay(20);while(P1_4==0);Delay(20);anjian = 16;}
+  33   1        
+  34   1        return anjian;
+  35   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    398    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
