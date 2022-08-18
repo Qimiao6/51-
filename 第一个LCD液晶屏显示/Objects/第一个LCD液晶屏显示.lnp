@@ -1,0 +1,5 @@
+".\Objects\main.obj",
+".\Objects\LCD1602.obj",
+".\Objects\dalay.obj" 
+TO ".\Objects\第一个LCD液晶屏显示" 
+PRINT(".\Listings\第一个LCD液晶屏显示.m51") RAMSIZE(256) 
