@@ -1,4 +1,4 @@
-void Delay(int x)		//@11.0592MHz
+void Delay(int x)	//1ms	
 {
 	unsigned char i, j;
 
@@ -9,7 +9,9 @@ void Delay(int x)		//@11.0592MHz
 	do
 	{
 		while (--j);
-	} while (--i);
+	} 
+	while (--i);
 	x--;
 	}
+	
 }
