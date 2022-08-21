@@ -1,1 +1,0 @@
-void Delay(int x);
