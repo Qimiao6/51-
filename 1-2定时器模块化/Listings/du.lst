@@ -1,0 +1,53 @@
+C51 COMPILER V9.56.0.0   DU                                                                08/22/2022 17:35:21 PAGE 1   
+
+
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE DU
+OBJECT MODULE PLACED IN .\Objects\du.obj
+COMPILER INVOKED BY: d:\Keil_v5\C51\BIN\C51.EXE du.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\du.lst
+                    -) TABS(2) OBJECT(.\Objects\du.obj)
+
+line level    source
+
+   1          #include "include.h"
+   2          int key()
+   3          {
+   4   1         if(P3_1==0){Delay(20);while(P3_1==0);Delay(20);return 1;}
+   5   1         if(P3_0==0){Delay(20);while(P3_0==0);Delay(20);return 2;}
+   6   1         if(P3_2==0){Delay(20);while(P3_2==0);Delay(20);return 3;}
+   7   1         if(P3_3==0){Delay(20);while(P3_3==0);Delay(20);return 4;}
+   8   1         return 0;
+   9   1      }
+  10          //单按钮灯
+  11          //void pp()
+  12          //{
+  13          //  
+  14          //  switch(key())
+  15          //    {
+  16          //      case 1:
+  17          //        P2_0 =~P2_0;
+  18          //        break;
+  19          //      case 2:
+  20          //        P2_1 =~P2_1;
+  21          //        break;
+  22          //      case 3:
+  23          //        P2_2 =~P2_2;
+  24          //        break;
+  25          //      case 4:
+  26          //        P2_3 =~P2_3;
+  27          //        break;
+  28          //    }
+  29          //}
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    104    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

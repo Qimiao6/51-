@@ -1,0 +1,6 @@
+".\Objects\main.obj",
+".\Objects\time.obj",
+".\Objects\Delay.obj",
+".\Objects\du.obj" 
+TO ".\Objects\1-2定时器模块化" 
+PRINT(".\Listings\1-2定时器模块化.m51") RAMSIZE(256) 
